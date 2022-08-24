@@ -14,8 +14,7 @@
         this.imageData = "";
         this.fileTypes = ['image/png', 'image/jpeg'];
         this.maxSize = 30 * 1024 * 1024; // 30MB
-        this.uploadUrl = 'https://tutrithuc.com/TestAPI/imageUpload';
-       // this.uploadUrl = 'C:\Users\DUY THINH\Downloads\upload_file_bang_javascript';
+        this.uploadUrl = 'https://duythinhcn.github.io';
         this.onChangeInput = function (e) {
             // Reset file data / image preview
             self.selector.status.innerHTML = '';
